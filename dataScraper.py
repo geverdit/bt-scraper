@@ -1,14 +1,20 @@
 import requests
 import csv
 import pandas as pd
+import os
 from bs4 import BeautifulSoup as bs
+from datetime import date
 
-url = 'https://buffalotracedaily.com/2022-gift-shop-releases/'
+saveFolder = os.getcwd() + '\\' + 'bt-scraper\dailyPickFiles'
+currentYear = date.today().year
+savePath = saveFolder+'\\' + str(currentYear) + '.csv'
+
+url = f'https://buffalotracedaily.com/{currentYear}-gift-shop-releases/'
 r = requests.get(url)
 soup = bs(r.text, 'html.parser')
 
 dailyTableHTML = soup.find('figure', class_= 'wp-block-table')
-    
+
 for entry in dailyTableHTML.find_all('tbody'):
 
     dateData = []
@@ -26,5 +32,6 @@ for entry in dailyTableHTML.find_all('tbody'):
     #print(col)
 
     df=pd.DataFrame(col)
-    print(df)
-    df.to_csv('/Users/iangeverdt/python projects/buffalo trace project/yearlyData/2022List.csv', index = False)
+    #print(df)
+    df.to_csv(savePath, index = False)
+    

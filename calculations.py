@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
-import matplotlib as mpl
+import os
+#import matplotlib as mpl
 
-df = pd.read_csv("/Users/iangeverdt/python projects/buffalo trace project/yearlyData/CompiledData.csv")
+data = open(os.getcwd() + '\\' + 'bt-scraper\cleanedData.csv')
+df = pd.read_csv(data)
 
 # Questions I want to answer:
 #    1. What’s the prediction for tomorrows bourbon?
@@ -19,11 +21,5 @@ df = pd.read_csv("/Users/iangeverdt/python projects/buffalo trace project/yearly
 #    9. Average number of days before a bourbon repeats
 
 
-# Which bourbons favor which days
-x = df.pivot_table(columns=['day', 'whiskey'], aggfunc='size')
-
 # Values in dataframe that satisfy this condition
-df.where(df['date']>'2021-12-31')
-
-#
-print(df.loc[df['whiskey'] == "Blanton\'s"])
+print(df.where(df['Date']>'2021-12-31'))

@@ -1,0 +1,636 @@
+Date,Day,Whiskey
+12/01/20,Tuesday,Eagle Rare
+12/02/20,Wednesday,EH Taylor
+12/03/20,Thursday,Blantons
+12/04/20,Friday,Single Oak Project
+12/05/20,Saturday,Eagle Rare
+12/06/20,Sunday,Blantons
+12/07/20,Monday,EH Taylor
+12/08/20,Tuesday,Blantons
+12/09/20,Wednesday,EH Taylor
+12/10/20,Thursday,Weller
+12/11/20,Friday,Weller
+12/12/20,Saturday,Blantons
+12/13/20,Sunday,Single Oak Project
+12/14/20,Monday,Eagle Rare
+12/15/20,Tuesday,Blantons
+12/16/20,Wednesday,Eagle Rare
+12/17/20,Thursday,Weller
+12/18/20,Friday,EH Taylor
+12/19/20,Saturday,Weller
+12/20/20,Sunday,Blantons
+12/21/20,Monday,Blantons
+12/22/20,Tuesday,Eagle Rare
+12/23/20,Wednesday,EH Taylor
+12/24/20,Thursday,Blantons
+12/25/20,Friday,CLOSED
+12/26/20,Saturday,Weller
+12/27/20,Sunday,Single Oak Project
+12/28/20,Monday,EH Taylor
+12/29/20,Tuesday,EH Taylor
+12/30/20,Wednesday,Eagle Rare
+12/31/20,Thursday,Blantons
+01/01/21,Friday,CLOSED
+01/02/21,Saturday,Weller
+01/03/21,Sunday,Single Oak Project
+01/04/21,Monday,Weller
+01/05/21,Tuesday,Blantons
+01/06/21,Wednesday,Eagle Rare
+01/07/21,Thursday,EH Taylor
+01/08/21,Friday,Weller
+01/09/21,Saturday,EH Taylor
+01/10/21,Sunday,Blantons
+01/11/21,Monday,EH Taylor
+01/12/21,Tuesday,Eagle Rare
+01/13/21,Wednesday,Weller
+01/14/21,Thursday,Blantons
+01/15/21,Friday,Weller
+01/16/21,Saturday,EH Taylor
+01/17/21,Sunday,Blantons
+01/18/21,Monday,Weller
+01/19/21,Tuesday,Blantons
+01/20/21,Wednesday,EH Taylor
+01/21/21,Thursday,Weller
+01/22/21,Friday,Blantons
+01/23/21,Saturday,Weller
+01/24/21,Sunday,EH Taylor
+01/25/21,Monday,Blantons
+01/26/21,Tuesday,Eagle Rare
+01/27/21,Wednesday,Weller
+01/28/21,Thursday,Blantons
+01/29/21,Friday,EH Taylor
+01/30/21,Saturday,Weller
+01/31/21,Sunday,EH Taylor
+02/01/21,Monday,Eagle Rare
+02/02/21,Tuesday,Blantons
+02/03/21,Wednesday,Weller
+02/04/21,Thursday,Blantons
+02/05/21,Friday,EH Taylor
+02/06/21,Saturday,Eagle Rare
+02/07/21,Sunday,Weller
+02/08/21,Monday,Weller
+02/09/21,Tuesday,Blantons
+02/10/21,Wednesday,EH Taylor
+02/11/21,Thursday,Eagle Rare
+02/12/21,Friday,Weller
+02/13/21,Saturday,EH Taylor
+02/14/21,Sunday,Blantons
+02/15/21,Monday,Weller
+02/16/21,Tuesday,Eagle Rare
+02/17/21,Wednesday,Eagle Rare
+02/18/21,Thursday,EH Taylor
+02/19/21,Friday,Blantons
+02/20/21,Saturday,Weller
+02/21/21,Sunday,Blantons
+02/22/21,Monday,Weller
+02/23/21,Tuesday,Blantons
+02/24/21,Wednesday,EH Taylor
+02/25/21,Thursday,Eagle Rare
+02/26/21,Friday,Blantons
+02/27/21,Saturday,Weller
+02/28/21,Sunday,Weller
+03/01/21,Monday,Blantons
+03/02/21,Tuesday,CLOSED
+03/03/21,Wednesday,CLOSED
+03/04/21,Thursday,CLOSED
+03/05/21,Friday,CLOSED
+03/06/21,Saturday,CLOSED
+03/07/21,Sunday,CLOSED
+03/08/21,Monday,EH Taylor
+03/09/21,Tuesday,Eagle Rare
+03/10/21,Wednesday,Weller
+03/11/21,Thursday,Blantons
+03/12/21,Friday,Weller
+03/13/21,Saturday,EH Taylor
+03/14/21,Sunday,Eagle Rare
+03/15/21,Monday,EH Taylor
+03/16/21,Tuesday,Weller
+03/17/21,Wednesday,Blantons
+03/18/21,Thursday,Weller
+03/19/21,Friday,EH Taylor
+03/20/21,Saturday,Eagle Rare
+03/21/21,Sunday,Blantons
+03/22/21,Monday,Blantons
+03/23/21,Tuesday,Eagle Rare
+03/24/21,Wednesday,EH Taylor
+03/25/21,Thursday,EH Taylor
+03/26/21,Friday,Weller
+03/27/21,Saturday,Blantons
+03/28/21,Sunday,CLOSED
+03/29/21,Monday,Weller
+03/30/21,Tuesday,Eagle Rare
+03/31/21,Wednesday,EH Taylor
+04/01/21,Thursday,Eagle Rare
+04/02/21,Friday,Blantons
+04/03/21,Saturday,EH Taylor
+04/04/21,Sunday,CLOSED
+04/05/21,Monday,Eagle Rare
+04/06/21,Tuesday,Weller
+04/07/21,Wednesday,Blantons
+04/08/21,Thursday,Eagle Rare
+04/09/21,Friday,Blantons
+04/10/21,Saturday,Weller
+04/11/21,Sunday,Eagle Rare
+04/12/21,Monday,Weller
+04/13/21,Tuesday,Blantons
+04/14/21,Wednesday,Eagle Rare
+04/15/21,Thursday,Blantons
+04/16/21,Friday,Weller
+04/17/21,Saturday,EH Taylor
+04/18/21,Sunday,Eagle Rare
+04/19/21,Monday,Weller
+04/20/21,Tuesday,EH Taylor
+04/21/21,Wednesday,Blantons
+04/22/21,Thursday,Eagle Rare
+04/23/21,Friday,Blantons
+04/24/21,Saturday,Weller
+04/25/21,Sunday,EH Taylor
+04/26/21,Monday,Weller
+04/27/21,Tuesday,Eagle Rare
+04/28/21,Wednesday,Blantons
+04/29/21,Thursday,Weller
+04/30/21,Friday,EH Taylor
+05/01/21,Saturday,Weller
+05/02/21,Sunday,Single Oak Project
+05/03/21,Monday,Weller
+05/04/21,Tuesday,Eagle Rare
+05/05/21,Wednesday,Blantons
+05/06/21,Thursday,EH Taylor
+05/07/21,Friday,Weller
+05/08/21,Saturday,Blantons
+05/09/21,Sunday,EH Taylor
+05/10/21,Monday,Eagle Rare
+05/11/21,Tuesday,Blantons
+05/12/21,Wednesday,EH Taylor
+05/13/21,Thursday,Blantons
+05/14/21,Friday,Weller
+05/15/21,Saturday,EH Taylor
+05/16/21,Sunday,Weller
+05/17/21,Monday,Eagle Rare
+05/18/21,Tuesday,EH Taylor
+05/19/21,Wednesday,Blantons
+05/20/21,Thursday,Weller
+05/21/21,Friday,Eagle Rare
+05/22/21,Saturday,Blantons
+05/23/21,Sunday,EH Taylor
+05/24/21,Monday,Weller
+05/25/21,Tuesday,EH Taylor
+05/26/21,Wednesday,Blantons
+05/27/21,Thursday,Weller
+05/28/21,Friday,Eagle Rare
+05/29/21,Saturday,Blantons
+05/30/21,Sunday,Weller
+05/31/21,Monday,EH Taylor
+06/01/21,Tuesday,Blantons
+06/02/21,Wednesday,Eagle Rare
+06/03/21,Thursday,Eagle Rare
+06/04/21,Friday,Weller
+06/05/21,Saturday,EH Taylor
+06/06/21,Sunday,Blantons
+06/07/21,Monday,EH Taylor
+06/08/21,Tuesday,Blantons
+06/09/21,Wednesday,Weller
+06/10/21,Thursday,EH Taylor
+06/11/21,Friday,Eagle Rare
+06/12/21,Saturday,Blantons
+06/13/21,Sunday,Single Oak Project
+06/14/21,Monday,Eagle Rare
+06/15/21,Tuesday,Blantons
+06/16/21,Wednesday,Blantons
+06/17/21,Thursday,Eagle Rare
+06/18/21,Friday,EH Taylor
+06/19/21,Saturday,Weller
+06/20/21,Sunday,Weller
+06/21/21,Monday,Weller
+06/22/21,Tuesday,Blantons
+06/23/21,Wednesday,EH Taylor
+06/24/21,Thursday,Blantons
+06/25/21,Friday,Eagle Rare
+06/26/21,Saturday,Weller
+06/27/21,Sunday,EH Taylor
+06/28/21,Monday,Eagle Rare
+06/29/21,Tuesday,EH Taylor
+06/30/21,Wednesday,Weller
+07/01/21,Thursday,Blantons
+07/02/21,Friday,Blantons
+07/03/21,Saturday,Weller
+07/04/21,Sunday,Eagle Rare
+07/05/21,Monday,EH Taylor
+07/06/21,Tuesday,Blantons
+07/07/21,Wednesday,Weller
+07/08/21,Thursday,Weller
+07/09/21,Friday,Eagle Rare
+07/10/21,Saturday,EH Taylor
+07/11/21,Sunday,Blantons
+07/12/21,Monday,Eagle Rare
+07/13/21,Tuesday,Blantons
+07/14/21,Wednesday,Eagle Rare
+07/15/21,Thursday,Blantons
+07/16/21,Friday,Weller
+07/17/21,Saturday,EH Taylor
+07/18/21,Sunday,Eagle Rare
+07/19/21,Monday,Blantons
+07/20/21,Tuesday,EH Taylor
+07/21/21,Wednesday,Blantons
+07/22/21,Thursday,EH Taylor
+07/23/21,Friday,Eagle Rare
+07/24/21,Saturday,Weller
+07/25/21,Sunday,Eagle Rare
+07/26/21,Monday,Eagle Rare
+07/27/21,Tuesday,Blantons
+07/28/21,Wednesday,Eagle Rare
+07/29/21,Thursday,Blantons
+07/30/21,Friday,EH Taylor
+07/31/21,Saturday,Weller
+08/01/21,Sunday,Eagle Rare
+08/02/21,Monday,EH Taylor
+08/03/21,Tuesday,Eagle Rare
+08/04/21,Wednesday,Eagle Rare
+08/05/21,Thursday,Blantons
+08/06/21,Friday,EH Taylor
+08/07/21,Saturday,Weller
+08/08/21,Sunday,Blantons
+08/09/21,Monday,Blantons
+08/10/21,Tuesday,EH Taylor
+08/11/21,Wednesday,Weller
+08/12/21,Thursday,EH Taylor
+08/13/21,Friday,Blantons
+08/14/21,Saturday,Eagle Rare
+08/15/21,Sunday,Weller
+08/16/21,Monday,Eagle Rare
+08/17/21,Tuesday,Weller
+08/18/21,Wednesday,Blantons
+08/19/21,Thursday,Weller
+08/20/21,Friday,Eagle Rare
+08/21/21,Saturday,EH Taylor
+08/22/21,Sunday,Blantons
+08/23/21,Monday,Weller
+08/24/21,Tuesday,EH Taylor
+08/25/21,Wednesday,Eagle Rare
+08/26/21,Thursday,Weller
+08/27/21,Friday,Eagle Rare
+08/28/21,Saturday,Blantons
+08/29/21,Sunday,EH Taylor
+08/30/21,Monday,Eagle Rare
+08/31/21,Tuesday,Blantons
+09/01/21,Wednesday,EH Taylor
+09/02/21,Thursday,Weller
+09/03/21,Friday,Blantons
+09/04/21,Saturday,Eagle Rare
+09/05/21,Sunday,EH Taylor
+09/06/21,Monday,Weller
+09/07/21,Tuesday,EH Taylor
+09/08/21,Wednesday,Blantons
+09/09/21,Thursday,Eagle Rare
+09/10/21,Friday,EH Taylor
+09/11/21,Saturday,Weller
+09/12/21,Sunday,Blantons
+09/13/21,Monday,Eagle Rare
+09/14/21,Tuesday,EH Taylor
+09/15/21,Wednesday,Blantons
+09/16/21,Thursday,Weller
+09/17/21,Friday,Eagle Rare
+09/18/21,Saturday,EH Taylor
+09/19/21,Sunday,Eagle Rare
+09/20/21,Monday,Blantons
+09/21/21,Tuesday,Weller
+09/22/21,Wednesday,Eagle Rare
+09/23/21,Thursday,EH Taylor
+09/24/21,Friday,Blantons
+09/25/21,Saturday,Eagle Rare
+09/26/21,Sunday,Weller
+09/27/21,Monday,EH Taylor
+09/28/21,Tuesday,Eagle Rare
+09/29/21,Wednesday,Blantons
+09/30/21,Thursday,EH Taylor
+10/01/21,Friday,Eagle Rare
+10/02/21,Saturday,EH Taylor
+10/03/21,Sunday,Blantons
+10/04/21,Monday,Weller
+10/05/21,Tuesday,EH Taylor
+10/06/21,Wednesday,Blantons
+10/07/21,Thursday,Eagle Rare
+10/08/21,Friday,Sazerac
+10/09/21,Saturday,Weller
+10/10/21,Sunday,Blantons
+10/11/21,Monday,Weller
+10/12/21,Tuesday,EH Taylor
+10/13/21,Wednesday,Sazerac
+10/14/21,Thursday,Eagle Rare
+10/15/21,Friday,EH Taylor
+10/16/21,Saturday,Blantons
+10/17/21,Sunday,Eagle Rare
+10/18/21,Monday,Sazerac
+10/19/21,Tuesday,EH Taylor
+10/20/21,Wednesday,Weller
+10/21/21,Thursday,Eagle Rare
+10/22/21,Friday,Blantons
+10/23/21,Saturday,EH Taylor
+10/24/21,Sunday,Weller
+10/25/21,Monday,Eagle Rare
+10/26/21,Tuesday,Sazerac
+10/27/21,Wednesday,Eagle Rare
+10/28/21,Thursday,EH Taylor
+10/29/21,Friday,Weller
+10/30/21,Saturday,Blantons
+10/31/21,Sunday,Eagle Rare
+11/01/21,Monday,Blantons
+11/02/21,Tuesday,Sazerac
+11/03/21,Wednesday,Weller
+11/04/21,Thursday,EH Taylor
+11/05/21,Friday,Blantons
+11/06/21,Saturday,Eagle Rare
+11/07/21,Sunday,Sazerac
+11/08/21,Monday,Weller
+11/09/21,Tuesday,Blantons
+11/10/21,Wednesday,EH Taylor
+11/11/21,Thursday,Blantons
+11/12/21,Friday,Eagle Rare
+11/13/21,Saturday,Sazerac
+11/14/21,Sunday,Weller
+11/15/21,Monday,EH Taylor
+11/16/21,Tuesday,Weller
+11/17/21,Wednesday,Blantons
+11/18/21,Thursday,Eagle Rare
+11/19/21,Friday,Blantons
+11/20/21,Saturday,Weller
+11/21/21,Sunday,Sazerac
+11/22/21,Monday,Eagle Rare
+11/23/21,Tuesday,Weller
+11/24/21,Wednesday,Eagle Rare
+11/25/21,Thursday,CLOSED
+11/26/21,Friday,Blantons
+11/27/21,Saturday,EH Taylor
+11/28/21,Sunday,Sazerac
+11/29/21,Monday,Eagle Rare
+11/30/21,Tuesday,EH Taylor
+12/01/21,Wednesday,Sazerac
+12/02/21,Thursday,Eagle Rare
+12/03/21,Friday,Blantons
+12/04/21,Saturday,Weller
+12/05/21,Sunday,EH Taylor
+12/06/21,Monday,Blantons
+12/07/21,Tuesday,Weller
+12/08/21,Wednesday,Eagle Rare
+12/09/21,Thursday,Blantons
+12/10/21,Friday,Sazerac
+12/11/21,Saturday,EH Taylor
+12/12/21,Sunday,Eagle Rare
+12/13/21,Monday,Eagle Rare
+12/14/21,Tuesday,Blantons
+12/15/21,Wednesday,Weller
+12/16/21,Thursday,Sazerac
+12/17/21,Friday,EH Taylor
+12/18/21,Saturday,Eagle Rare
+12/19/21,Sunday,Blantons
+12/20/21,Monday,Eagle Rare
+12/21/21,Tuesday,Sazerac
+12/22/21,Wednesday,Blantons
+12/23/21,Thursday,Weller
+12/24/21,Friday,EH Taylor
+12/25/21,Saturday,CLOSED
+12/26/21,Sunday,Sazerac
+12/27/21,Monday,Blantons
+12/28/21,Tuesday,Weller
+12/29/21,Wednesday,EH Taylor
+12/30/21,Thursday,Blantons
+12/31/21,Friday,Eagle Rare
+01/01/22,Saturday,CLOSED
+01/02/22,Sunday,EH Taylor
+01/03/22,Monday,Eagle Rare
+01/04/22,Tuesday,Sazerac
+01/05/22,Wednesday,Eagle Rare
+01/06/22,Thursday,Weller
+01/07/22,Friday,Blantons
+01/08/22,Saturday,EH Taylor
+01/09/22,Sunday,Sazerac
+01/10/22,Monday,Weller
+01/11/22,Tuesday,Eagle Rare
+01/12/22,Wednesday,Sazerac
+01/13/22,Thursday,Blantons
+01/14/22,Friday,EH Taylor
+01/15/22,Saturday,Sazerac
+01/16/22,Sunday,Eagle Rare
+01/17/22,Monday,Sazerac
+01/18/22,Tuesday,Eagle Rare
+01/19/22,Wednesday,Weller
+01/20/22,Thursday,Sazerac
+01/21/22,Friday,EH Taylor
+01/22/22,Saturday,Blantons
+01/23/22,Sunday,Weller
+01/24/22,Monday,EH Taylor
+01/25/22,Tuesday,Weller
+01/26/22,Wednesday,EH Taylor
+01/27/22,Thursday,Blantons
+01/28/22,Friday,Sazerac
+01/29/22,Saturday,Eagle Rare
+01/30/22,Sunday,Blantons
+01/31/22,Monday,Sazerac
+02/01/22,Tuesday,Weller
+02/02/22,Wednesday,Eagle Rare
+02/03/22,Thursday,Weller
+02/04/22,Friday,CLOSED
+02/05/22,Saturday,EH Taylor
+02/06/22,Sunday,Blantons
+02/07/22,Monday,Eagle Rare
+02/08/22,Tuesday,Blantons
+02/09/22,Wednesday,Weller
+02/10/22,Thursday,Sazerac
+02/11/22,Friday,Eagle Rare
+02/12/22,Saturday,EH Taylor
+02/13/22,Sunday,Weller
+02/14/22,Monday,Sazerac
+02/15/22,Tuesday,Weller
+02/16/22,Wednesday,Eagle Rare
+02/17/22,Thursday,Sazerac
+02/18/22,Friday,Blantons
+02/19/22,Saturday,EH Taylor
+02/20/22,Sunday,Eagle Rare
+02/21/22,Monday,Weller
+02/22/22,Tuesday,Eagle Rare
+02/23/22,Wednesday,Blantons
+02/24/22,Thursday,Eagle Rare
+02/25/22,Friday,EH Taylor
+02/26/22,Saturday,Blantons
+02/27/22,Sunday,Eagle Rare
+02/28/22,Monday,Sazerac
+03/01/22,Tuesday,Weller
+03/02/22,Wednesday,Blantons
+03/03/22,Thursday,EH Taylor
+03/04/22,Friday,Weller
+03/05/22,Saturday,EH Taylor
+03/06/22,Sunday,Eagle Rare
+03/07/22,Monday,Blantons
+03/08/22,Tuesday,EH Taylor
+03/09/22,Wednesday,Sazerac
+03/10/22,Thursday,Blantons
+03/11/22,Friday,Weller
+03/12/22,Saturday,Eagle Rare
+03/13/22,Sunday,EH Taylor
+03/14/22,Monday,Eagle Rare
+03/15/22,Tuesday,Blantons
+03/16/22,Wednesday,EH Taylor
+03/17/22,Thursday,Weller
+03/18/22,Friday,Blantons
+03/19/22,Saturday,Sazerac
+03/20/22,Sunday,Eagle Rare
+03/21/22,Monday,EH Taylor
+03/22/22,Tuesday,Sazerac
+03/23/22,Wednesday,Weller
+03/24/22,Thursday,Blantons
+03/25/22,Friday,Eagle Rare
+03/26/22,Saturday,EH Taylor
+03/27/22,Sunday,Sazerac
+03/28/22,Monday,Eagle Rare
+03/29/22,Tuesday,EH Taylor
+03/30/22,Wednesday,Blantons
+03/31/22,Thursday,EH Taylor
+04/01/22,Friday,Weller
+04/02/22,Saturday,Blantons
+04/03/22,Sunday,Eagle Rare
+04/04/22,Monday,Eagle Rare
+04/05/22,Tuesday,Weller
+04/06/22,Wednesday,Blantons
+04/07/22,Thursday,Weller
+04/08/22,Friday,EH Taylor
+04/09/22,Saturday,Blantons
+04/10/22,Sunday,Eagle Rare
+04/11/22,Monday,Weller
+04/12/22,Tuesday,Sazerac
+04/13/22,Wednesday,Eagle Rare
+04/14/22,Thursday,Weller
+04/15/22,Friday,Blantons
+04/16/22,Saturday,EH Taylor
+04/17/22,Sunday,CLOSED
+04/18/22,Monday,Sazerac
+04/19/22,Tuesday,Weller
+04/20/22,Wednesday,Blantons
+04/21/22,Thursday,Eagle Rare
+04/22/22,Friday,Blantons
+04/23/22,Saturday,EH Taylor
+04/24/22,Sunday,Weller
+04/25/22,Monday,EH Taylor
+04/26/22,Tuesday,Blantons
+04/27/22,Wednesday,Eagle Rare
+04/28/22,Thursday,EH Taylor
+04/29/22,Friday,Weller
+04/30/22,Saturday,Eagle Rare
+05/01/22,Sunday,Blantons
+05/02/22,Monday,Eagle Rare
+05/03/22,Tuesday,Weller
+05/04/22,Wednesday,Blantons
+05/05/22,Thursday,Weller
+05/06/22,Friday,Blantons
+05/07/22,Saturday,EH Taylor
+05/08/22,Sunday,Blantons
+05/09/22,Monday,Weller
+05/10/22,Tuesday,Blantons
+05/11/22,Wednesday,Eagle Rare
+05/12/22,Thursday,Blantons
+05/13/22,Friday,EH Taylor
+05/14/22,Saturday,Blantons
+05/15/22,Sunday,Sazerac
+05/16/22,Monday,Eagle Rare
+05/17/22,Tuesday,Blantons
+05/18/22,Wednesday,Sazerac
+05/19/22,Thursday,Blantons
+05/20/22,Friday,Weller
+05/21/22,Saturday,EH Taylor
+05/22/22,Sunday,Eagle Rare
+05/23/22,Monday,Blantons
+05/24/22,Tuesday,Eagle Rare
+05/25/22,Wednesday,Weller
+05/26/22,Thursday,Blantons
+05/27/22,Friday,EH Taylor
+05/28/22,Saturday,Eagle Rare
+05/29/22,Sunday,Weller
+05/30/22,Monday,EH Taylor
+05/31/22,Tuesday,Eagle Rare
+06/01/22,Wednesday,Blantons
+06/02/22,Thursday,EH Taylor
+06/03/22,Friday,Weller
+06/04/22,Saturday,EH Taylor
+06/05/22,Sunday,Eagle Rare
+06/06/22,Monday,Blantons
+06/07/22,Tuesday,Weller
+06/08/22,Wednesday,Eagle Rare
+06/09/22,Thursday,Blantons
+06/10/22,Friday,EH Taylor
+06/11/22,Saturday,Blantons
+06/12/22,Sunday,Sazerac
+06/13/22,Monday,Eagle Rare
+06/14/22,Tuesday,Blantons
+06/15/22,Wednesday,EH Taylor
+06/16/22,Thursday,Blantons
+06/17/22,Friday,Weller
+06/18/22,Saturday,EH Taylor
+06/19/22,Sunday,Sazerac
+06/20/22,Monday,Weller
+06/21/22,Tuesday,Blantons
+06/22/22,Wednesday,Eagle Rare
+06/23/22,Thursday,EH Taylor
+06/24/22,Friday,Blantons
+06/25/22,Saturday,Eagle Rare
+06/26/22,Sunday,EH Taylor
+06/27/22,Monday,Blantons
+06/28/22,Tuesday,Eagle Rare
+06/29/22,Wednesday,Blantons
+06/30/22,Thursday,Weller
+07/01/22,Friday,Eagle Rare
+07/02/22,Saturday,EH Taylor
+07/03/22,Sunday,Blantons
+07/04/22,Monday,CLOSED
+07/05/22,Tuesday,Weller
+07/06/22,Wednesday,Blantons
+07/07/22,Thursday,Weller
+07/08/22,Friday,EH Taylor
+07/09/22,Saturday,Eagle Rare
+07/10/22,Sunday,Blantons
+07/11/22,Monday,EH Taylor
+07/12/22,Tuesday,Blantons
+07/13/22,Wednesday,Eagle Rare
+07/14/22,Thursday,EH Taylor
+07/15/22,Friday,Blantons
+07/16/22,Saturday,Weller
+07/17/22,Sunday,Eagle Rare
+07/18/22,Monday,Weller
+07/19/22,Tuesday,Eagle Rare
+07/20/22,Wednesday,Blantons
+07/21/22,Thursday,Eagle Rare
+07/22/22,Friday,Blantons
+07/23/22,Saturday,EH Taylor
+07/24/22,Sunday,Weller
+07/25/22,Monday,Blantons
+07/26/22,Tuesday,Weller
+07/27/22,Wednesday,Sazerac
+07/28/22,Thursday,Blantons
+07/29/22,Friday,EH Taylor
+07/30/22,Saturday,Eagle Rare
+07/31/22,Sunday,Blantons
+08/01/22,Monday,EH Taylor
+08/02/22,Tuesday,Eagle Rare
+08/03/22,Wednesday,Weller
+08/04/22,Thursday,Eagle Rare
+08/05/22,Friday,Blantons
+08/06/22,Saturday,Sazerac
+08/07/22,Sunday,EH Taylor
+08/08/22,Monday,Eagle Rare
+08/09/22,Tuesday,Blantons
+08/10/22,Wednesday,EH Taylor
+08/11/22,Thursday,Weller
+08/12/22,Friday,Blantons
+08/13/22,Saturday,Eagle Rare
+08/14/22,Sunday,EH Taylor
+08/15/22,Monday,Eagle Rare
+08/16/22,Tuesday,Blantons
+08/17/22,Wednesday,Eagle Rare
+08/18/22,Thursday,Blantons
+08/19/22,Friday,EH Taylor
+08/20/22,Saturday,Weller
+08/21/22,Sunday,Blantons
+08/22/22,Monday,EH Taylor
+08/23/22,Tuesday,Weller
+08/24/22,Wednesday,Eagle Rare
+08/25/22,Thursday,EH Taylor
+08/26/22,Friday,Eagle Rare
+08/27/22,Saturday,Weller
