@@ -20,6 +20,3 @@ df = pd.read_csv(data)
 #    8. Maximum amount of days before a bourbon repeats 
 #    9. Average number of days before a bourbon repeats
 
-
-# Values in dataframe that satisfy this condition
-print(df.where(df['Date']>'2021-12-31'))
