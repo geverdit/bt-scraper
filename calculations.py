@@ -59,7 +59,7 @@ class BlantonsData():
 
     #print(count)
     #print (f'Blantons:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
-"""     
+""" EHT  
 class EHTData():
     result=[]
     for i in range(len(ehtIndex)):
@@ -83,7 +83,7 @@ class EHTData():
     #print(count)
     # print (f'EH Taylor:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 """
-"""
+""" ER
 class ERData():
     result=[]
     for i in range(len(erIndex)):
@@ -107,7 +107,7 @@ class ERData():
     #print(count)
     #print (f'Eagle Rare:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 """
-"""
+""" Weller
 class WellerData():
     result=[]
     for i in range(len(wellerIndex)):
@@ -131,7 +131,7 @@ class WellerData():
     #print(count)    
     #print (f'Weller:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 """
-"""
+""" Saz
 class SazData():
     result=[]
     for i in range(len(sazIndex)):
@@ -155,7 +155,7 @@ class SazData():
     #print(count)
     #print (f'Sazerac:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 """
-"""
+""" SOP
 class SOPData():
     result=[]
     for i in range(len(sopIndex)):
