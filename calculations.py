@@ -1,9 +1,8 @@
 import pandas as pd
 import numpy as np
 import os
-#import matplotlib as mpl
 
-data = open(os.getcwd() + '\\' + 'bt-scraper\cleanedData.csv')
+data = open(os.getcwd() + '\cleanedData.csv')
 df = pd.read_csv(data)
 weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 

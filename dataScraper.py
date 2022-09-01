@@ -5,7 +5,7 @@ import os
 from bs4 import BeautifulSoup as bs
 from datetime import date
 
-saveFolder = os.getcwd() + '\\' + 'bt-scraper\dailyPickFiles'
+saveFolder = os.getcwd() + '\dailyPickFiles'
 currentYear = date.today().year
 savePath = saveFolder+'\\' + str(currentYear) + '.csv'
 
