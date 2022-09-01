@@ -5,6 +5,7 @@ import os
 
 data = open(os.getcwd() + '\\' + 'bt-scraper\cleanedData.csv')
 df = pd.read_csv(data)
+weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
 blantonsIndex = df[df['Whiskey'] == 'Blantons'].index.values
 ehtIndex = df[df['Whiskey'] == 'EH Taylor'].index.values
@@ -13,6 +14,14 @@ wellerIndex = df[df['Whiskey'] == 'Weller'].index.values
 sazIndex = df[df['Whiskey'] == 'Sazerac'].index.values
 sopIndex = df[df['Whiskey'] == 'Single Oak Project'].index.values
 closeIndex = df[df['Whiskey'] == 'CLOSED'].index.values
+
+listBlantons = (df.loc[df['Whiskey'] == 'Blantons'])
+listEHT = (df.loc[df['Whiskey'] == 'EH Taylor']) 
+listER = (df.loc[df['Whiskey'] == 'Eagle Rare']) 
+listWeller = (df.loc[df['Whiskey'] == 'Weller'])  
+listSaz = (df.loc[df['Whiskey'] == 'Sazerac']) 
+listSOP = (df.loc[df['Whiskey'] == 'Single Oak Project']) 
+
 
 # Questions I want to answer:
 #    1. What’s the prediction for tomorrows bourbon?
@@ -41,8 +50,15 @@ class BlantonsData():
     avg = round((sum(result) / len(result)), 2)
 
     count = pd.Series(result).value_counts()
+    
+    for x in weekdays:
+        y = listBlantons.loc[listBlantons['Day'] == x]
+        print(f'On {x}\'s, Blantons has been sold {len(y)} times.')
+    print(f'In total, Blantons has been sold {len(listBlantons)} times.')
+    print('\n')
+
     #print(count)
-    print (f'Blantons:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
+    #print (f'Blantons:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 class EHTData():
     result=[]
     for i in range(len(ehtIndex)):
@@ -56,6 +72,13 @@ class EHTData():
     avg = round((sum(result) / len(result)), 2)
 
     count = pd.Series(result).value_counts()
+
+    for x in weekdays:
+        y = listEHT.loc[listEHT['Day'] == x]
+        print(f'On {x}\'s, EH Taylor has been sold {len(y)} times.')
+    print(f'In total, EH Taylor has been sold {len(listEHT)} times.')
+    print('\n')
+
     #print(count)
     # print (f'EH Taylor:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 class ERData():
@@ -71,6 +94,13 @@ class ERData():
     avg = round((sum(result) / len(result)), 2)
 
     count = pd.Series(result).value_counts()
+
+    for x in weekdays:
+        y = listER.loc[listER['Day'] == x]
+        print(f'On {x}\'s, Eagle Rare has been sold {len(y)} times.')
+    print(f'In total, Eagle Rare has been sold {len(listER)} times.')
+    print('\n')
+
     #print(count)
     #print (f'Eagle Rare:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 class WellerData():
@@ -86,6 +116,13 @@ class WellerData():
     avg = round((sum(result) / len(result)), 2)
 
     count = pd.Series(result).value_counts()
+
+    for x in weekdays:
+        y = listWeller.loc[listWeller['Day'] == x]
+        print(f'On {x}\'s, Weller has been sold {len(y)} times.')
+    print(f'In total, Weller has been sold {len(listWeller)} times.')
+    print('\n')
+
     #print(count)    
     #print (f'Weller:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 class SazData():
@@ -101,6 +138,13 @@ class SazData():
     avg = round((sum(result) / len(result)), 2)
 
     count = pd.Series(result).value_counts()
+
+    for x in weekdays:
+        y = listSaz.loc[listSaz['Day'] == x]
+        print(f'On {x}\'s, Sazerac has been sold {len(y)} times.')
+    print(f'In total, Sazerac has been sold {len(listSaz)} times.')
+    print('\n')
+
     #print(count)
     #print (f'Sazerac:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
 class SOPData():
@@ -116,5 +160,12 @@ class SOPData():
     avg = round((sum(result) / len(result)), 2)
 
     count = pd.Series(result).value_counts()
+
+    for x in weekdays:
+        y = listSOP.loc[listSOP['Day'] == x]
+        print(f'On {x}\'s, Single Oak Project has been sold {len(y)} times.')
+    print(f'In total, Single Oak Project has been sold {len(listSOP)} times.')
+    print('\n')
+
     #print(count)
     #print (f'Single Oak Project:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
