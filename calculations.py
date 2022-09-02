@@ -4,7 +4,11 @@ import os
 
 data = open(os.getcwd() + '\cleanedData.csv')
 df = pd.read_csv(data)
+
 weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+weekSeries = pd.Series(weekdays)
+whiskeys = ['Blantons', 'EH Taylor', 'Eagle Rare', 'Weller', 'Sazerac', 'Single Oak Project', 'CLOSED']
+whiskeySeries = pd.Series(whiskeys)
 
 blantonsIndex = df[df['Whiskey'] == 'Blantons'].index.values
 ehtIndex = df[df['Whiskey'] == 'EH Taylor'].index.values
@@ -19,7 +23,46 @@ listEHT = (df.loc[df['Whiskey'] == 'EH Taylor'])
 listER = (df.loc[df['Whiskey'] == 'Eagle Rare']) 
 listWeller = (df.loc[df['Whiskey'] == 'Weller'])  
 listSaz = (df.loc[df['Whiskey'] == 'Sazerac']) 
-listSOP = (df.loc[df['Whiskey'] == 'Single Oak Project']) 
+listSOP = (df.loc[df['Whiskey'] == 'Single Oak Project'])
+listClose = (df.loc[df['Whiskey'] == 'CLOSED'])
+
+indexList = []
+for x in whiskeys:
+    indexList.append(df[df['Whiskey'] == x].index.values)
+
+whiskeyDict = {}
+whiskeyList = []
+for x in whiskeys:
+   whiskeyList.append(df.loc[df['Whiskey'] == x])
+   whiskeyDict = dict(zip(whiskeys, whiskeyList))
+
+whiskeyDay = []
+whiskeyDayDict = {}
+
+for y in whiskeyDict.values():
+    for x in weekdays:
+        z = y.loc[y['Day'] == x]
+        whiskeyDay.append(len(z))
+        for v in whiskeys:
+            whiskeyDayDict[v] = (len(z))
+print(whiskeyDay)
+print(whiskeyDayDict)
+
+#dict1 = dict(zip(whiskeys, indexList))
+#df1 = pd.DataFrame.from_dict(dict1, orient = 'index')
+#df1 = df1.transpose()
+#print(df1)
+
+#print(indexList)
+result=[]
+for x in indexList:
+    for y in range(len(x)):
+        if y < len(x) - 1:
+            result.append(x[y+1] - x[y])
+        elif y == len(x):
+            result.append(x[y] - x[y-1])
+
+#print(result)
 
 # testing
 
@@ -37,6 +80,8 @@ listSOP = (df.loc[df['Whiskey'] == 'Single Oak Project'])
 #  DONE  8. Maximum amount of days before a bourbon repeats 
 #  DONE  9. Average number of days before a bourbon repeats
 
+""" BLANTON
+
 class BlantonsData():
     result=[]
     for i in range(len(blantonsIndex)):
@@ -50,15 +95,22 @@ class BlantonsData():
     avg = round((sum(result) / len(result)), 2)
 
     count = pd.Series(result).value_counts()
-    
+    blantonDays = []
+
     for x in weekdays:
         y = listBlantons.loc[listBlantons['Day'] == x]
+        blantonDays.append(len(y))
         print(f'On {x}\'s, Blantons has been sold {len(y)} times.')
     print(f'In total, Blantons has been sold {len(listBlantons)} times.')
     print('\n')
-
+    
+    blantonSeries = pd.Series(blantonDays)
+    dfB=pd.concat([weekSeries, blantonSeries], axis = 1)
+   
+    print(dfB)
     #print(count)
     #print (f'Blantons:\nMax: {max} days \nMin: {min} day(s) \nAverage: {avg} days\n')
+"""
 """ EHT  
 class EHTData():
     result=[]
