@@ -5,11 +5,13 @@ import os
 data = open(os.getcwd() + '\cleanedData.csv')
 df = pd.read_csv(data)
 
+#defining lists and headers that are used later. 
 weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 weekSeries = pd.Series(weekdays)
 whiskeys = ['Blantons', 'EH Taylor', 'Eagle Rare', 'Weller', 'Sazerac', 'Single Oak Project', 'CLOSED']
 whiskeySeries = pd.Series(whiskeys)
 
+#individually locating the index of all same type whiskeys in the dataframe
 blantonsIndex = df[df['Whiskey'] == 'Blantons'].index.values
 ehtIndex = df[df['Whiskey'] == 'EH Taylor'].index.values
 erIndex = df[df['Whiskey'] == 'Eagle Rare'].index.values
@@ -18,6 +20,7 @@ sazIndex = df[df['Whiskey'] == 'Sazerac'].index.values
 sopIndex = df[df['Whiskey'] == 'Single Oak Project'].index.values
 closeIndex = df[df['Whiskey'] == 'CLOSED'].index.values
 
+#creating individual lists of each whiskey
 listBlantons = (df.loc[df['Whiskey'] == 'Blantons'])
 listEHT = (df.loc[df['Whiskey'] == 'EH Taylor']) 
 listER = (df.loc[df['Whiskey'] == 'Eagle Rare']) 
@@ -26,10 +29,12 @@ listSaz = (df.loc[df['Whiskey'] == 'Sazerac'])
 listSOP = (df.loc[df['Whiskey'] == 'Single Oak Project'])
 listClose = (df.loc[df['Whiskey'] == 'CLOSED'])
 
+#attempting to index all the values for each whiskey at once instead of individually like I am above
 indexList = []
 for x in whiskeys:
     indexList.append(df[df['Whiskey'] == x].index.values)
 
+#again, attempting to create individual lists of each whiskey at one time
 whiskeyDict = {}
 whiskeyList = []
 for x in whiskeys:
@@ -39,14 +44,15 @@ for x in whiskeys:
 whiskeyDay = []
 whiskeyDayDict = {}
 
+#not working, but trying to find the count of each whiskey on each week day. This is much easier to show in powerBI
 for y in whiskeyDict.values():
     for x in weekdays:
         z = y.loc[y['Day'] == x]
         whiskeyDay.append(len(z))
         for v in whiskeys:
             whiskeyDayDict[v] = (len(z))
-print(whiskeyDay)
-print(whiskeyDayDict)
+#print(whiskeyDay)
+#print(whiskeyDayDict)
 
 #dict1 = dict(zip(whiskeys, indexList))
 #df1 = pd.DataFrame.from_dict(dict1, orient = 'index')
@@ -54,6 +60,8 @@ print(whiskeyDayDict)
 #print(df1)
 
 #print(indexList)
+
+#finding the number of days before a whiskey is repeated--trying to do it all at once and not individually like I am with the commented out bits below
 result=[]
 for x in indexList:
     for y in range(len(x)):
@@ -64,17 +72,16 @@ for x in indexList:
 
 #print(result)
 
-# testing
 
 # Questions I want to answer:
 #    1. What’s the prediction for tomorrows bourbon?
-#    2. Is there a pattern?
-#    3. Which bourbons favor which week days?
-#        * Count of bourbon per weekday
-#    4. Which bourbons favor which month days?
-#        * count of bourbon per month day
-#    5. What bourbons favor which months?
-#        * Count of bourbon per month
+# NO   2. Is there a pattern?
+# Easier to see in powerBI   3. Which bourbons favor which week days?
+# Easier to see in powerBI       * Count of bourbon per weekday
+# Easier to see in powerBI   4. Which bourbons favor which month days?
+# Easier to see in powerBI       * count of bourbon per month day
+# Easier to see in powerBI   5. What bourbons favor which months?
+# Easier to see in powerBI       * Count of bourbon per month
 #    6. What bourbon is most likely to follow a certain bourbon?
 #  DONE  7. Minimum number of days before a bourbon repeats
 #  DONE  8. Maximum amount of days before a bourbon repeats 

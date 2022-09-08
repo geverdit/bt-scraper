@@ -14,6 +14,7 @@ files = glob.glob(files)
 df = pd.concat(map(pd.read_csv, files), ignore_index=True)
 df.to_csv(os.getcwd() + '\mergedCSV.csv', index = False)
 
+#Renaming different variations of the same name to a standard
 text = open(os.getcwd() + '\mergedCSV.csv', 'r', encoding='ascii', errors='replace')
 text = ''.join([i for i in text]) \
     .replace('E.H Taylor, Jr. Small Batch', 'EH Taylor')\
